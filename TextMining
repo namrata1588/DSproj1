@@ -1,0 +1,7 @@
+with open("positive.txt", "r", encoding='latin-1') as f:
+    pos_docs = f.read()
+    pos_docs = pos_docs.split('\n')
+
+with open("negative.txt", "r", encoding='latin-1') as f:
+    neg_docs = f.read()
+    neg_docs = neg_docs.split('\n')
